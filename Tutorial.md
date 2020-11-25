@@ -89,7 +89,7 @@ basic.forever(function () {
 ```
 
 
-## Congratulations, you have completed the Hot Potato Game, now it's time to play! 
+## Step 5: Congratulations, you have completed the Hot Potato Game, now it's time to play! 
 
 - Download your code by saving it locally
 - Drag your save .hex file to your Micro:bit (make sure it is plugged in with your USB)
