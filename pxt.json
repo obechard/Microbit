@@ -9,7 +9,9 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "Tutorial.md",
+        "_locales/en-GB/Tutorial.md"
     ],
     "testFiles": [
         "test.ts"
@@ -17,5 +19,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
