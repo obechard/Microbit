@@ -1,11 +1,10 @@
 # Tutorial
 
-## Step 1: Create the setting for your activity:
+## Step 1: 
+Create the setting for your activity by:
+- Establishing what is the potato
+- Connecting the two players devices
 
-- Establish the potato
-- Connect the two players devices
-
-How to: 
 
 1. Go in the variable tab and create a new variable, name it potato.
 2. Drag the block **Set variable to 0**, and place it under the start block, change the number to -1.
@@ -19,8 +18,9 @@ Potato = -1
 radio.setGroup(1)
 ``` 
 
-## Step 2: Define the player action: If you have the potato, send it to the other player 
+## Step 2: 
 
+Define the player action: If you have the potato, send it to the other player 
 1. In the Input tab, select and drag the **on shake** block, place it unthetered
 2. Select the **If then** block from the Logic tab
 3. Add the potato variable the first location on the **if then** block
@@ -37,8 +37,9 @@ input.onGesture(Gesture.Shake, function () {
 })
 ```
 
-## Step 3: Set your device to catch the potato when the opponent shakes their own device
+## Step 3: 
 
+Set your device to catch the potato when the opponent shakes their own device
 1. In the input tab, select the **On button A pressed** block and drag in below, unthetered 
 2. Go in the variable tab and nest the **set potato to 0** block
 3. In the math tab, select **pick random 0 to 10** block, add it in the space for 0 and change it to indicate 10 to 20
@@ -55,13 +56,11 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 
-## Step 4: Define what the potato is doing
-
+## Step 4: 
+Define what the potato is doing
 - Checks if the game is done then displays loosing screen
 - Checks that the players doesn't have the potato, if so displays nothing
 - Checks if you are holding the potato, then counts down the timer
-
-How to: 
 
 1. Drag from the Basic tab the **forever** block, unthetered
 2. From the logic tab, nest in the **if 0 = 0 then** block, repeat two more times
@@ -89,8 +88,9 @@ basic.forever(function () {
 ```
 
 
-## Step 5: Congratulations, you have completed the Hot Potato Game, now it's time to play! 
+## Step 5: 
 
+Congratulations, you have completed the Hot Potato Game, now it's time to play! 
 - Download your code by saving it locally
 - Drag your save .hex file to your Micro:bit (make sure it is plugged in with your USB)
 - Could you add a third or fourth player? 
